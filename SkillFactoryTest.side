@@ -1,0 +1,207 @@
+{
+  "id": "026a499f-086c-400e-9365-861ce3f2f8f1",
+  "version": "2.0",
+  "name": "Goo",
+  "url": "https://lms.skillfactory.ru/",
+  "tests": [{
+    "id": "665810ec-1867-477d-8188-fe9a56401494",
+    "name": "Машина",
+    "commands": [{
+      "id": "4e989326-f071-42b7-8c48-2c4b3300a66d",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9be374b3-843b-4537-809b-1379dfc51554",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1440x801",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d9d844f3-6b29-46ad-ad25-27fba286aca5",
+      "comment": "",
+      "command": "type",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.gLFyf", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "машина"
+    }, {
+      "id": "57054b70-c952-448e-808d-301dcee5f556",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.gLFyf", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "e996f941-58ed-4318-ac80-cdbc85a8bb52",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Картинки",
+      "targets": [
+        ["linkText=Картинки", "linkText"],
+        ["css=.hdtb-mitem:nth-child(2) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Картинки')]", "xpath:link"],
+        ["xpath=//div[@id='hdtb-msb']/div/div/div[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/search?q=%D0%BC%D0%B0%D1%88%D0%B8%D0%BD%D0%B0&source=lnms&tbm=isch&sa=X&ved=2ahUKEwjq4sv3uIL8AhXr-yoKHapwA94Q_AUoAXoECAEQAw')]", "xpath:href"],
+        ["xpath=//div[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Картинки')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1465fd9e-33b2-454b-90bd-3b2dd0bb18d1",
+      "comment": "",
+      "command": "click",
+      "target": "css=.isv-r:nth-child(2) .rg_i",
+      "targets": [
+        ["css=.isv-r:nth-child(2) .rg_i", "css:finder"],
+        ["xpath=//img[@alt='Самая дорогая машина в истории зарегистрирована в России - Российская газета']", "xpath:img"],
+        ["xpath=//div[@id='islrg']/div/div/a/div/img", "xpath:idRelative"],
+        ["xpath=//a/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5088272a-5ec1-4bf3-9dd8-7732ef5a8033",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,178)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9a37b53c-9737-4872-b751-d34ae6b0eb4f",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.gb_0e",
+      "targets": [
+        ["css=.gb_0e", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "5ad32efd-9db3-4a5b-a571-35314e630817",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.gb_0e",
+      "targets": [
+        ["css=.gb_0e", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "48782d7c-7615-48ef-bf42-29f144c7bcf3",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "0fa4311c-85be-40a3-b4f1-7b6157890a54",
+    "name": "SkillFactory",
+    "commands": [{
+      "id": "d3caf98e-f1a9-4e22-a9dd-cc35cf9b449f",
+      "comment": "",
+      "command": "open",
+      "target": "https://lms.skillfactory.ru/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "544b4352-47a2-49fc-9d96-d77a0013d910",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1440x801",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4f1df75d-f120-44d5-84a3-72e5cf444e05",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Просмотреть курсы",
+      "targets": [
+        ["linkText=Просмотреть курсы", "linkText"],
+        ["css=.main a", "css:finder"],
+        ["xpath=//a[contains(text(),'Просмотреть курсы')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/courses')]", "xpath:href"],
+        ["xpath=//nav/div/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Просмотреть курсы')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6ae26628-c82a-4431-a8d2-5d0513ccac0f",
+      "comment": "",
+      "command": "click",
+      "target": "id=discovery-input",
+      "targets": [
+        ["id=discovery-input", "id"],
+        ["css=#discovery-input", "css:finder"],
+        ["xpath=//input[@id='discovery-input']", "xpath:attributes"],
+        ["xpath=//div[@id='discovery-form']/form/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c703d128-915e-4178-baed-0e8445ec7c2f",
+      "comment": "",
+      "command": "type",
+      "target": "id=discovery-input",
+      "targets": [
+        ["id=discovery-input", "id"],
+        ["css=#discovery-input", "css:finder"],
+        ["xpath=//input[@id='discovery-input']", "xpath:attributes"],
+        ["xpath=//div[@id='discovery-form']/form/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "программирование"
+    }, {
+      "id": "b7191988-5d30-4909-a5a1-c229b5317b3b",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "id=discovery-input",
+      "targets": [
+        ["id=discovery-input", "id"],
+        ["css=#discovery-input", "css:finder"],
+        ["xpath=//input[@id='discovery-input']", "xpath:attributes"],
+        ["xpath=//div[@id='discovery-form']/form/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "3a8dbbb2-2c5e-4927-9f9e-b2088827acfe",
+      "comment": "",
+      "command": "click",
+      "target": "css=.courses-listing-item:nth-child(1) .cover-image",
+      "targets": [
+        ["css=.courses-listing-item:nth-child(1) .cover-image", "css:finder"],
+        ["xpath=//main[@id='main']/section/section/div[3]/ul[3]/li/article/a/header/div", "xpath:idRelative"],
+        ["xpath=//a/header/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "49604efb-f831-4e6e-b09e-d4de40f294c6",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "dc5121b1-99a8-4494-97d5-9df83cc43564",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["665810ec-1867-477d-8188-fe9a56401494"]
+  }],
+  "urls": ["https://www.google.com/", "https://lms.skillfactory.ru/"],
+  "plugins": []
+}
